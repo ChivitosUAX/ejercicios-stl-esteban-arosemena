@@ -14,6 +14,7 @@ Este repositorio presenta una serie de ejercicios que combinan el uso de espacio
 Estructura del proyecto
 -----------------------
 
+```
 ColeccionEjerciciosSTL/
 ├── CMakeLists.txt
 ├── README.md
@@ -29,6 +30,7 @@ ColeccionEjerciciosSTL/
     └── fisica/
         ├── fisica.cpp
         └── fisica.h
+```
 
 Descripción de las carpetas y archivos principales
 --------------------------------------------------
