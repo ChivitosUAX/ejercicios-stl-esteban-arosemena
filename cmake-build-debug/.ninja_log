@@ -1,0 +1,7 @@
+# ninja log v6
+22	214	7552965984305319	CMakeFiles/ColeccionEjerciciosSTL.dir/matematicas/matematicas.cpp.obj	1ee258719027affb
+43	257	7552965984512188	CMakeFiles/ColeccionEjerciciosSTL.dir/geometria/triangulo.cpp.obj	78880d2e7a34720f
+87	301	7552965984958321	CMakeFiles/ColeccionEjerciciosSTL.dir/geometria/circulo.cpp.obj	9fb7924bd2e4ce0d
+126	320	7552965985344185	CMakeFiles/ColeccionEjerciciosSTL.dir/ciencias/física/fisica.cpp.obj	77d0f5e27c311f89
+2	691	7552966082675637	CMakeFiles/ColeccionEjerciciosSTL.dir/main.cpp.obj	4d00a827cb5e16a1
+693	991	7552966089591539	ColeccionEjerciciosSTL.exe	2cbb3c9dba81ec94
