@@ -2,6 +2,111 @@
 
 https://github.com/ChivitosUAX/ejercicios-stl-esteban-arosemena.git
 
+## EL ENUNCIADO DEL EJERCICIO SE ENCUENTRA AL FINAL.
+
+# Proceso de mi programa:
+
+Colección de Ejercicios STL
+===========================
+
+Este repositorio presenta una serie de ejercicios que combinan el uso de espacios de nombres (namespaces), clases en C++, y contenedores de la Biblioteca Estándar de Plantillas (STL). Los ejercicios se han organizado siguiendo una estructura de directorios que facilita la navegación y el mantenimiento del código.
+
+Estructura del proyecto
+-----------------------
+
+ColeccionEjerciciosSTL/
+├── CMakeLists.txt
+├── README.md
+├── main.cpp
+├── matematicas/
+│   ├── matematicas.cpp
+│   └── matematicas.h
+├── geometria/
+│   ├── geometria.h
+│   ├── triangulo.cpp
+│   └── circulo.cpp
+└── ciencias/
+    └── fisica/
+        ├── fisica.cpp
+        └── fisica.h
+
+Descripción de las carpetas y archivos principales
+--------------------------------------------------
+
+- **matematicas/**
+  - `matematicas.h`: Declaraciones de las funciones `suma` y `resta` en el espacio de nombres `Matematicas`.
+  - `matematicas.cpp`: Implementación de las funciones `suma` y `resta`.
+
+- **geometria/**
+  - `geometria.h`: Declaraciones de funciones y clases en el espacio de nombres `Geometria`.
+  - `triangulo.cpp`: Implementación de la función `calcularAreaTriangulo`.
+  - `circulo.cpp`: Implementación de la clase `Circulo` y la función `calcularAreaCirculo`.
+
+- **ciencias/fisica/**
+  - `fisica.h`: Declaración de la constante de la velocidad de la luz `c` y la función `calcularEnergia` en `Ciencia::Fisica`.
+  - `fisica.cpp`: Implementación de la función `calcularEnergia`.
+
+- **main.cpp**: Archivo principal que utiliza las funciones y clases definidas en los diferentes espacios de nombres, así como contenedores de la STL (`vector`, `map`, `set`).
+
+- **CMakeLists.txt**: Archivo de configuración para compilar el proyecto usando CMake.
+
+Ejercicios Desarrollados
+------------------------
+
+1. **Ejercicio 1: Uso completo de un espacio de nombres**
+   - Espacio de nombres `Matematicas` con funciones `suma` y `resta`.
+   - Ejemplo de uso en `main.cpp`.
+
+2. **Ejercicio 2: Espacio de nombres en múltiples archivos**
+   - Espacio de nombres `Geometria` distribuido en varios archivos.
+   - Ejemplo de uso en `main.cpp`.
+
+3. **Ejercicio 3: Clase dentro de un espacio de nombres**
+   - Clase `Circulo` con métodos para calcular área y perímetro.
+   - Ejemplo de uso en `main.cpp`.
+
+4. **Ejercicio 4: Subespacios de nombres**
+   - Espacio de nombres `Ciencia::Fisica` con constante `c` y función `calcularEnergia`.
+   - Ejemplo de uso en `main.cpp`.
+
+5. **Ejercicio 5: Uso de la STL**
+   - Uso de contenedores `vector`, `map` y `set` para realizar operaciones básicas.
+
+Requisitos
+----------
+
+- Un compilador C++ compatible con C++11 o superior.
+- [CMake](https://cmake.org/) para la configuración del proyecto.
+
+Compilación y Ejecución
+------------------------
+
+1. Crear un directorio para la compilación (por ejemplo, `build`):
+   ```bash
+   mkdir build
+   cd build
+   ```
+
+2. Ejecutar CMake para generar los archivos de compilación:
+   ```bash
+   cmake ..
+   ```
+
+3. Compilar el proyecto:
+   ```bash
+   cmake --build .
+   ```
+   (O, dependiendo del sistema, `make` o `ninja` si se han instalado)
+
+4. Ejecutar el programa:
+   ```bash
+   ./ColeccionEjerciciosSTL
+   ```
+
+
+
+***
+
 Enunciado
 Ejercicio 1: Utilización completa de un espacio de nombres Escribe un programa que defina un espacio de nombres "Matemáticas" que contenga dos funciones: suma y resta. Luego, desde la función main, utiliza estas funciones.
 
